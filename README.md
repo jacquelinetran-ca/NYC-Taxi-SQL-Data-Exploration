@@ -4,16 +4,12 @@ An analysis of about 11 million NYC yellow taxi trips from January 2016, using *
 
 The goal is to answer simple business questions a taxi operator or city transport analyst would care about: when demand peaks, how riders pay, how tipping changes through the day, and how airport trips compare with regular city trips.
 
----
-
 ## Business Questions
 
 1. How do trip volume and revenue change day to day across the month?
 2. How do airport trips (JFK, Newark) compare with standard trips on fare, distance and duration?
 3. What share of trips are paid by card vs. cash?
 4. How does tipping change by hour of the day?
-
----
 
 ## Tools
 
@@ -24,8 +20,6 @@ The goal is to answer simple business questions a taxi operator or city transpor
 | Power BI | Interactive dashboard |
 | GitHub | Version control and portfolio |
 
----
-
 ## Dataset
 
 - **Source:** [NYC Yellow Taxi Trip Data on Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data), originally published by the NYC Taxi & Limousine Commission (TLC)
@@ -34,11 +28,9 @@ The goal is to answer simple business questions a taxi operator or city transpor
 
 The raw data is not included in this repo because of its size. Download it from the Kaggle link above.
 
----
 
 ## Project Structure
 
-```
 nyc-taxi-analysis/
 ├── README.md
 ├── sql/
@@ -51,7 +43,7 @@ nyc-taxi-analysis/
 └── dashboard/
     ├── nyc_taxi_dashboard.pbix
     └── dashboard.png
-```
+
 ## Key Findings
 
 - **Data quality:** cleaning removed **[200k]** of raw records (invalid fares, zero-distance trips, impossible durations).
@@ -59,8 +51,6 @@ nyc-taxi-analysis/
 - **Airport trips:** JFK trips made up only **[X]%** of trips but **[1.98]%** of revenue, with an average total of **$[64.59]** vs. **$[14.36]** for standard trips.
 - **Payments:** **[66.2]%** of trips were paid by card and **[33.5]%** in cash.
 - **Tipping:** card riders tipped an average of **[20]%** of the fare, highest around **4pm** and lowest around **[3am]**.
-
----
 
 ## Limitations
 
