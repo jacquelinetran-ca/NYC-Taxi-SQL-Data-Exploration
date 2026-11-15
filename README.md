@@ -47,11 +47,14 @@ nyc-taxi-analysis/
 ```
 ## Key Findings
 
-- **Data quality:** cleaning removed **[200k]** of raw records (invalid fares, zero-distance trips, impossible durations).
-- **Daily demand:** trips ranged from **[76904]** to **[430649]** per day.
-- **Airport trips:** JFK trips made up only **[X]%** of trips but **[1.98]%** of revenue, with an average total of **$[64.59]** vs. **$[14.36]** for standard trips.
-- **Payments:** **[66.2]%** of trips were paid by card and **[33.5]%** in cash.
-- **Tipping:** card riders tipped an average of **[20]%** of the fare, highest around **4pm** and lowest around **[3am]**.
+- **Data quality:** cleaning removed **200k** of raw records (invalid fares, zero-distance trips, impossible durations).
+- **Daily demand:** trips ranged from **76904** to **430649** per day.
+
+  <img width="104" height="124" alt="image" src="https://github.com/user-attachments/assets/e4b6a2c3-8f15-4891-a667-a8c25528dae2" />
+
+- **Airport trips:** JFK trips made up only **1.98%** of trips but **8.21%** of revenue, with an average total of **$[64.59]** vs. **$[14.36]** for standard trips.
+- **Payments:** **[66.2]%** of trips were paid by card and **33.5%** in cash.
+- **Tipping:** card riders tipped an average of **20%** of the fare, highest around **4pm** and lowest around **[3am]**.
 
 ## Limitations
 
