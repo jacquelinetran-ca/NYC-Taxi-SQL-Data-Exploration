@@ -31,6 +31,7 @@ The raw data is not included in this repo because of its size. Download it from 
 
 ## Project Structure
 
+```
 nyc-taxi-analysis/
 ├── README.md
 ├── sql/
@@ -43,7 +44,7 @@ nyc-taxi-analysis/
 └── dashboard/
     ├── nyc_taxi_dashboard.pbix
     └── dashboard.png
-
+```
 ## Key Findings
 
 - **Data quality:** cleaning removed **[200k]** of raw records (invalid fares, zero-distance trips, impossible durations).
