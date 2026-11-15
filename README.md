@@ -54,7 +54,9 @@ nyc-taxi-analysis/
 - **Tipping:** card riders tipped an average of **20%** of the fare, highest around **4pm** and lowest around **3am**.
 
 **Screenshot of Power BI dashboard**
-  <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/59819c03-ac17-4be1-b9b0-c3e294268b1a" />
+
+<img width="1391" height="654" alt="image" src="https://github.com/user-attachments/assets/61b40666-ee18-412c-9c4e-a0268518dd55" />
+
 
 
 ## Limitations
