@@ -53,6 +53,10 @@ nyc-taxi-analysis/
 - **Payments:** **66.2%** of trips were paid by card and **33.5%** in cash.
 - **Tipping:** card riders tipped an average of **20%** of the fare, highest around **4pm** and lowest around **3am**.
 
+**Screenshot of Power BI dashboard**
+  <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/59819c03-ac17-4be1-b9b0-c3e294268b1a" />
+
+
 ## Limitations
 
 - **Cash tips are not recorded** in TLC data, so tip analysis covers card payments only.
